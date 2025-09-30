@@ -114,16 +114,24 @@ php artisan serve
 ## Capturas de Pantalla
 
 ### Listado de Productos
-*[Aquí deberías incluir captura de /products]*
+![Listado de Productos](images/products-index.jpg)
 
 ### Formulario de Creación
-*[Aquí deberías incluir captura de /products/create]*
+![Crear Producto](images/products-create.jpg)
 
 ### Formulario de Edición
-*[Aquí deberías incluir captura de /products/{id}/edit]*
+![Editar Producto](images/products-create2.jpg)
+
 
 ### Vista Individual de Producto
-*[Aquí deberías incluir captura de /products/{id}]*
+![Vista de Producto](images/product-show.jpg)
+
+### Inicio de sesión
+![Inicio de sesión](images/login.jpg)
+
+### Registro
+![Registro](images/register.jpg)
+
 
 ## Base de Datos
 
@@ -233,14 +241,6 @@ npm install
 npm run dev
 ```
 
-## Referencias Bibliográficas
-
-1. **Laravel Documentation**. (2025). *Laravel Framework Documentation*. Recuperado de: https://laravel.com/docs
-2. **Composer**. (2025). *Dependency Manager for PHP*. Recuperado de: https://getcomposer.org/doc/
-3. **Ibex CRUD Generator**. (2025). *Laravel CRUD Generator Package*. Recuperado de: https://packagist.org/packages/ibex/crud-generator
-4. **Bootstrap**. (2025). *Bootstrap Framework Documentation*. Recuperado de: https://getbootstrap.com/docs/
-5. **Laravel UI**. (2025). *Laravel UI Package*. Recuperado de: https://github.com/laravel/ui
-
 ## Funcionalidades Implementadas
 
 - **CREATE**: Formulario para crear nuevos productos
@@ -252,6 +252,25 @@ npm run dev
 - **INTERFAZ**: Diseño responsive con Bootstrap
 - **AUTENTICACIÓN**: Sistema de login y registro de usuarios
 
+## URLs Disponibles
+
+- `http://127.0.0.1:8000/products` - Listado de productos
+- `http://127.0.0.1:8000/products/create` - Crear producto
+- `http://127.0.0.1:8000/products/{id}` - Ver producto
+- `http://127.0.0.1:8000/products/{id}/edit` - Editar producto
+- `http://127.0.0.1:8000/login` - Iniciar sesión
+- `http://127.0.0.1:8000/register` - Registrar usuario
+
+
+## Referencias Bibliográficas
+
+1. **Laravel Documentation**. (2025). *Laravel Framework Documentation*. Recuperado de: https://laravel.com/docs
+2. **Composer**. (2025). *Dependency Manager for PHP*. Recuperado de: https://getcomposer.org/doc/
+3. **Ibex CRUD Generator**. (2025). *Laravel CRUD Generator Package*. Recuperado de: https://packagist.org/packages/ibex/crud-generator
+4. **Bootstrap**. (2025). *Bootstrap Framework Documentation*. Recuperado de: https://getbootstrap.com/docs/
+5. **Laravel UI**. (2025). *Laravel UI Package*. Recuperado de: https://github.com/laravel/ui
+
+
 
 ## Información de los Desarrolladores
 
@@ -259,15 +278,16 @@ npm run dev
 
 **Este laboratorio ha sido desarrollado por estudiantes de la Universidad Tecnológica de Panamá:**
 
-- **Nathaly Bonilla Mcklean**
+### Nathaly Bonilla Mcklean
 - **Correos de contacto**:
   - **Institucional**: nathaly.bonilla1@utp.ac.pa
   - **GitHub**: githubmcklean@gmail.com
   - **Profesional**: nbmcklean@gmail.com
 
-- **Abdiel Abrego**
+### Abdiel Abrego
 - **Correos de contacto**:
   - **Institucional**: abdiel.abrego1@utp.ac.pa
+  - **Profesional**: aabdiel200412@gmail.com
 
 - **Curso**: Ingeniería Web
 - **Instructora del Laboratorio**: Ing. Irina Fong
