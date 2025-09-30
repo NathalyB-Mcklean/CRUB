@@ -122,9 +122,8 @@ php artisan serve
 ### Formulario de Edición
 ![Editar Producto](images/products-create2.jpg)
 
-
 ### Vista Individual de Producto
-![Vista de Producto](images/product-show.jpg)
+![Vista de Producto](images/products-show.jpg)
 
 ### Inicio de sesión
 ![Inicio de sesión](images/login.jpg)
