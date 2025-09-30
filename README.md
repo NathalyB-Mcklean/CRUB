@@ -7,6 +7,53 @@
   <img src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png" alt="Bootstrap" width="100">
 </p>
 
+## ÍNDICE
+
+1. [Requisitos Previos](#requisitos-previos)
+   - Prerrequisitos (Ecosistema de desarrollo)
+
+2. [Introducción](#introducción)
+   - Arquitectura MVC en Laravel
+   - Objetivo del Proyecto
+
+3. [Comandos Utilizados](#comandos-utilizados)
+   - FASE 1: Instalación y Configuración Inicial
+   - FASE 2: Configuración de Laravel
+   - FASE 3: Creación del Modelo y Migración
+   - FASE 4: Generación del CRUD
+   - FASE 5: Instalación de UI y Assets
+   - FASE 6: Ejecución del Servidor
+
+4. [Capturas de Pantalla](#capturas-de-pantalla)
+   - Listado de Productos
+   - Formulario de Creación
+   - Formulario de Edición
+   - Vista Individual de Producto
+   - Inicio de Sesión
+   - Registro
+
+5. [Base de Datos](#base-de-datos)
+   - Configuración del archivo .env
+   - Estructura de la Tabla `products`
+   - Migración Ejecutada
+   - Configuración del Modelo
+   - Configuración Importante en AppServiceProvider
+
+6. [Dificultades Encontradas y Soluciones](#dificultades-encontradas-y-soluciones)
+   - Problema 1: Comando Laravel no reconocido
+   - Problema 2: Base de datos no existía
+   - Problema 3: Rutas del CRUD no aparecían
+   - Problema 4: Error de layout no encontrado
+   - Problema 5: Vite no reconocido
+
+7. [Funcionalidades Implementadas](#funcionalidades-implementadas)
+
+8. [URLs Disponibles](#urls-disponibles)
+
+9. [Referencias Bibliográficas](#referencias-bibliográficas)
+
+10. [Información de los Desarrolladores](#información-de-los-desarrolladores)
+
 ## Requisitos Previos
 
 ### Prerrequisitos (Ecosistema de desarrollo)
